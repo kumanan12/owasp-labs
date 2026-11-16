@@ -1,0 +1,16 @@
+{
+  "name": "owasp-security-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OWASP Top 10 Security Lab with Angular and Express.js in TypeScript",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run start",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
